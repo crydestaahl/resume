@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none; 
+  color: #FC511C;
+  font-weight: bold; 
+  transition: all 1s; 
+}
+
+a:hover {
+  color: orange; 
+  text-shadow: 3px 2px #eee; 
+}
+
+h1 {
+  color: #FC511C; 
+  font-weight: bold; 
+  transition: all .8s;
+  font-size: 45px;
+}
+
+.hover:hover {
+  color: orange; 
+  text-shadow: 3px 2px #eee; 
+}
+
+h2,
+h3,
+h4 {
+  color: #FC511C; 
+  font-weight: bold; 
+  transition: all 1s;
+  
+}
+
+.logo {
+  height: 80px;
+  width: 80px; 
+  padding: 2em; 
+  transition: all 2s;
+}
+
+.logo:hover {
+  transform: scale(1.3) rotate(45deg);
+}
+
+.react {
+  position: relative;
+  top: 7px;
+}
+
+.content {
+  margin: auto;
+}
+
+.img {
+  background: url('https://cdn.pixabay.com/photo/2013/07/12/19/16/hypnosis-154466_960_720.png');
+  background-size: cover; 
+  background-color: #FD774D;
+  background-blend-mode: multiply;
+  z-index: 800;
+  transition: all 2s;
+  height: 300px; 
+  width: 300px;
+  border-radius: 50%;
+  margin: auto; 
+}
+
+.img:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+
+.right {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.centered {
+  text-align: center;
+}
+
+#jag {
+  position: relative; 
+  top: 10%;
+  left: 17%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 400px) {
+  
+  
+  .content {
+    order: 2;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #om-mig {
+    text-align: center;
+  }
+  .img {
+    order: 1;
+    width: 272px;
+  }
+  #jag {
+    top: 4%;
+    left: 15%;
+  }
+
+  .title {
+    margin-top: 375px;
+    padding-left: 3em;
+  }
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
