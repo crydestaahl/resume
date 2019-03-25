@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Resume = styled.div`
+    max-width: 1170px;
     padding: 1em 6em; 
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -11,7 +12,7 @@ const Resume = styled.div`
         display: flex;
         flex-direction: column;
         margin-top: 0;
-        padding: 2em;
+        padding: 4em 2em;
         
         }
 `
@@ -36,7 +37,7 @@ function Cv() {
                         </p><br></br>        
                     </div>    
                     <div className="right">                                               
-                        <h2 className="hover">Språk och tekniker jag behärskar</h2><br></br>    
+                        <h2 id="sprak" className="hover">Språk och tekniker jag behärskar</h2><br></br>    
                             <img className="logo" src="https://cdn.worldvectorlogo.com/logos/html-5.svg" alt="html5"></img>
                             <img className="logo" src="https://cdn.worldvectorlogo.com/logos/css-5.svg" alt="css3"></img>
                             <img className="logo"src="https://cdn.worldvectorlogo.com/logos/javascript-4.svg" alt="js"></img>

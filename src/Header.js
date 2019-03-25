@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const NavWrap = styled.div`
+    max-width: 1170px;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%; 

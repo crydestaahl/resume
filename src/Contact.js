@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ContactWrap = styled.div`
+    max-width: 1170px;
     padding: 2em 6em; 
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -10,7 +11,7 @@ const ContactWrap = styled.div`
      @media screen and (max-width: 400px) {
     display: flex;
     flex-direction: column;
-    padding: 1em 1em;
+    padding: 1em 2em;
     }
 `
 function Contact() {
