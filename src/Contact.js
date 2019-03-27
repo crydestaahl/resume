@@ -8,7 +8,7 @@ const ContactWrap = styled.div`
     grid-template-columns: 1fr 1fr; 
     column-gap: 8rem;
     
-     @media screen and (max-width: 400px) {
+     @media screen and (max-width: 450px) {
     display: flex;
     flex-direction: column;
     padding: 1em 2em;
@@ -21,7 +21,7 @@ function Contact() {
             <h1 id="contact"className="hover">Kontakta mig!</h1>
                 <p>Om ni är sugna på att ses är det bara att ringa mig på <a href="tel:0736926360">0736926360</a>, eller varför inte dra iväg ett <a href="mailto: kristoffer@oholics.com">mail!</a></p>
             <h2 className="hover">Personuppgifter</h2>
-            <p>Personnummer: 198604274095</p>
+            <p>Personnummer: 1986-04-27</p>
             <p>Sågliderna 15, 43854 Hindås</p>
             </div>
         </ContactWrap>

@@ -10,7 +10,7 @@ const MainWrap = styled.div`
     column-gap: 8rem;
     height: 450px; 
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 450px) {
     display: flex;
     flex-direction: column;
     padding: 2em 1em;
@@ -28,7 +28,7 @@ function Main() {
                     <br></br>    
                     Idag praktiserar jag på Jetshop i Göteborg, där jag dagligen jobbar med JavaScript, HTML, CSS3, och Git. Praktiken avslutas i maj.<br></br>     
                     <br></br>    
-                Jag tror att jag skulle kunna gör nytta hos er då jag är en stark idéspruta med possetiv energi och stor vilja att lära. Dessutom är min bakgrund som copywriter en passande egenskap i vårt contenttörstande samhälle. 
+                Jag tror att jag skulle kunna gör nytta hos er då jag är en kreativ idéspruta med positiv energi och stor vilja att lära. Dessutom är min bakgrund som copywriter en passande egenskap i vårt contenttörstande samhälle. 
                 </p>
             </div>
             <div className="img">

@@ -31,7 +31,7 @@ const Li = styled.li`
     display: inline; 
     margin: 0 2em;
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 413px) {
         padding: 1em 0;
         text-align: center;
         display: block;

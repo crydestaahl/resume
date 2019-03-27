@@ -8,13 +8,17 @@ const Resume = styled.div`
     grid-template-columns: 1fr 1fr; 
     column-gap: 8rem;
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 450px) {
         display: flex;
         flex-direction: column;
         margin-top: 0;
         padding: 4em 2em;
-        
         }
+
+    @media screen and (max-width: 874px) {
+        margin-top: 44px;
+    }    
+            
 `
 
 function Cv() {
