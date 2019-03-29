@@ -19,32 +19,36 @@ a:hover {
 }
 
 h1 {
-  color: #FC511C; 
+  color: white; 
   font-weight: bold; 
   transition: all .1s;
   font-size: 45px;
+  background-color: #FC511C;
+  padding-left: 2px;
 }
 
-.hover:hover {
-  color: orange; 
-  text-shadow: 3px 2px #eee; 
+h2 {
+  color: white; 
+  color: #FC511C; 
+  padding-left: 2px;
 }
 
-h2,
 h3,
 h4 {
   color: #FC511C; 
   font-weight: bold; 
   transition: all 1s;
-  
 }
 
-
-h2:hover,
 h3:hover,
 h4:hover {
   transform: scale(1.2);
   text-shadow: 2px 12px 13px #333;
+}
+
+.hover:hover {
+  color: orange; 
+  text-shadow: 3px 2px #eee; 
 }
 
 .logo {
@@ -68,7 +72,7 @@ h4:hover {
 }
 
 .img {
-  background: url('https://cdn.pixabay.com/photo/2013/07/12/19/16/hypnosis-154466_960_720.png');
+  background: url('https://cdn5.vectorstock.com/i/1000x1000/41/89/hypnotic-spiral-vector-18474189.jpg');
   background-size: cover; 
   background-color: #FD774D;
   background-blend-mode: multiply;
@@ -107,7 +111,7 @@ h4:hover {
 
 @media screen and (max-width: 320px) {
 
-    .title{
+    .title {
       margin-top: 313px;
     }
 }
@@ -134,9 +138,17 @@ h4:hover {
   }
 
   .title {
-      margin-top: 250px;
-    
+      margin-top: 283px;
   }
+
+   /* .logo:nth-child(3) {
+    padding-left: 58px;
+  } 
+
+  .logo:nth-child(5) {
+    padding-left: 54px;
+  } 
+   */
 
   /* #sprak {
     text-align: center; 

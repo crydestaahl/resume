@@ -22,7 +22,7 @@ function Main() {
     return(
         <MainWrap>
             <div className="content">
-                <h1 id="om-mig" className="hover">Christoffer Rydeståhl</h1>
+                <h1 id="om-mig" className="">Christoffer Rydeståhl</h1>
                 <p>Efter ett frilansuppdrag som copywriter upptäckte jag programmeringens utlovade rike - här vill jag stanna! <br></br> 
                 Min bana som Frontend utvecklare startade för snart ett år sedan.<br></br>
                     <br></br>    

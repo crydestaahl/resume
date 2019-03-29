@@ -25,7 +25,7 @@ function Cv() {
     return(
         <div>        
         <Resume>
-                <h1 className="hover title">CV</h1><br></br>    
+                <h1 className="title">CV</h1><br></br>    
                 <div className="cv">                                
                     <p><strong><h2 className="hover">Jetshop, Göteborg</h2></strong><h4 className="hover">Praktik: Frontend utvecklare
                         december 2018 – pågående</h4>
