@@ -20,10 +20,10 @@ const MainWrap = styled.div`
 
 function Main() {
     return(
-        <MainWrap>
+        <MainWrap className="fade-text">
             <div className="content">
-                <h1 id="om-mig" className="">Christoffer Rydeståhl</h1>
-                <p>Efter ett frilansuppdrag som copywriter upptäckte jag programmeringens utlovade rike - här vill jag stanna! <br></br> 
+                <h1 id="om-mig">Christoffer Rydeståhl</h1>
+                <p className="text">Efter ett frilansuppdrag som copywriter upptäckte jag programmeringens utlovade rike - här vill jag stanna! <br></br> 
                 Min bana som Frontend utvecklare startade för snart ett år sedan.<br></br>
                     <br></br>    
                     Idag praktiserar jag på Jetshop i Göteborg, där jag dagligen jobbar med JavaScript, HTML, CSS3, och Git. Praktiken avslutas i maj.<br></br>     

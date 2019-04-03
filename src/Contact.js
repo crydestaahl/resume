@@ -16,9 +16,9 @@ const ContactWrap = styled.div`
 `
 function Contact() {
     return(
-        <ContactWrap>
+        <ContactWrap className="fade-text">
             <div>
-            <h1 id="contact"className="hover">Kontakta mig!</h1>
+                <h1 id="contact">Kontakta mig!</h1>
                 <p>Om ni är sugna på att ses är det bara att ringa mig på <a href="tel:0736926360">0736926360</a>, eller varför inte dra iväg ett <a href="mailto: kristoffer@oholics.com">mail!</a></p>
             <h2 className="hover">Personuppgifter</h2>
             <p>Personnummer: 1986-04-27</p>
@@ -29,3 +29,4 @@ function Contact() {
 }
 
 export default Contact;
+

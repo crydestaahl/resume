@@ -24,7 +24,7 @@ const Resume = styled.div`
 function Cv() {
     return(
         <div>        
-        <Resume>
+            <Resume className="fade-text">
                 <h1 className="title">CV</h1><br></br>    
                 <div className="cv">                                
                     <p><strong><h2 className="hover">Jetshop, Göteborg</h2></strong><h4 className="hover">Praktik: Frontend utvecklare
@@ -41,11 +41,13 @@ function Cv() {
                         </p><br></br>        
                     </div>    
                     <div className="right">                                               
-                        <h2 id="sprak" className="hover">Språk och tekniker jag behärskar</h2><br></br>    
+                    <h2 id="sprak" className="hover">Språk och tekniker jag behärskar</h2><br></br>  
+                        <div className="logo-wrapper">  
                             <img className="logo" src="https://cdn.worldvectorlogo.com/logos/html-5.svg" alt="html5"></img>
                             <img className="logo" src="https://cdn.worldvectorlogo.com/logos/css-5.svg" alt="css3"></img>
                             <img className="logo"src="https://cdn.worldvectorlogo.com/logos/javascript-4.svg" alt="js"></img>
                             <img className="logo react" src="https://cdn.worldvectorlogo.com/logos/react.svg" alt="react"></img>
+                        </div>
                     </div>                        
             </Resume>    
         </div>
