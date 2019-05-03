@@ -20,7 +20,8 @@ a:hover {
 
 h1 {
   color: white; 
-  font-weight: bold; 
+  /* font-weight: bold;  */
+  font-weight: 100;
   transition: all .1s;
   font-size: 45px;
   background-color: #FC511C;
@@ -37,12 +38,12 @@ h3,
 h4 {
   color: #FC511C; 
   font-weight: bold; 
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 h3:hover,
 h4:hover {
-  transform: scale(1.2);
+  transform: scale(1.12);
   text-shadow: 2px 12px 13px #333;
 }
 
@@ -60,11 +61,11 @@ h4:hover {
   height: 60px;
   width: 60px; 
   padding: 1em; 
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .logo:hover {
-  transform: scale(1.4) rotate(20deg);
+  transform: scale(1.4) rotate(5deg);
 }
 
 .react {
