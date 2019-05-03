@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 body {
   margin: 0 auto;
   max-width: 1074px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 a {
