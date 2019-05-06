@@ -12,11 +12,11 @@ const Resume = styled.div`
         display: flex;
         flex-direction: column;
         margin-top: 0;
-        padding: 4em 2em;
+        padding: 2em 2em;
         }
 
     @media screen and (max-width: 874px) {
-        margin-top: 44px;
+        /* margin-top: 44px; */
     }    
             
 `

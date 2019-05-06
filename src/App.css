@@ -133,9 +133,9 @@ h4:hover {
 
 @media screen and (max-width: 320px) {
 
-    .title {
+    /* .title {
       margin-top: 313px;
-    }
+    } */
 }
 
 @media screen and (max-width: 450px) {
@@ -168,9 +168,9 @@ h4:hover {
     left: 15%;
   }
 
-  .title {
+  /* .title {
       margin-top: 283px;
-  }
+  } */
 
   .logo-wrapper:nth-child(firs) {
       padding-left: 53px;
